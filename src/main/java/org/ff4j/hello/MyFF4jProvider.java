@@ -14,7 +14,9 @@ public class MyFF4jProvider implements FF4JProvider {
     /**
      * {@inheritDoc}
      */
+    @Override
     public FF4j getFF4j() {
         return ff4j;
     }
+
 }
